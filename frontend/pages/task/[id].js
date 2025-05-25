@@ -55,6 +55,7 @@ export default function TaskDetail() {
 
   return (
     <div className={styles.container}>
+      <h2 className={styles.heading}>Task Details</h2>
       {/* Back Button */}
       <button
         className={styles.backButton}
