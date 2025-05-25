@@ -1,4 +1,5 @@
 🚀 Task Management App – Setup Guide
+
 taskapp/
 ├── backend/      # Node.js GraphQL backend
 └── frontend/     # Next.js frontend with Apollo Client
