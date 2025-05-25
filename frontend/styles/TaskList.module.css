@@ -1,0 +1,93 @@
+/* styles/TaskList.module.css */
+
+.container {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #222;
+  text-align: center;
+}
+
+.filterRow {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.select {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.addLink {
+  display: inline-block;
+  color: #1e90ff;
+  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.addLink:hover {
+  text-decoration: underline;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.taskCard {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease;
+}
+
+.taskCard:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.taskTitle {
+  font-size: 1.2rem;
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.taskTitle:hover {
+  text-decoration: underline;
+}
+
+.taskMeta {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.deleteButton {
+  margin-top: 10px;
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #d9363e;
+}
+
