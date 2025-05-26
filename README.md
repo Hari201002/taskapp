@@ -9,7 +9,7 @@ Backend Setup
 
    cd backend
 
-3. Install dependencies
+2. Install dependencies
 
    npm install
 
